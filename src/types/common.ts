@@ -1,0 +1,34 @@
+export type TError = {
+  data: {
+    message: string;
+    stack: string;
+    success: boolean;
+  };
+  status: number;
+};
+
+export type TQueryParam = {
+  key: string;
+  value: string | undefined;
+};
+
+export type TMeta = {
+  limit: number;
+  page: number;
+  total: number;
+  totalPage: number;
+};
+
+export type TResponse<T> = {
+  data?: T;
+  error?: TError;
+  meta?: TMeta;
+  success: boolean;
+  message: string;
+};
+
+export type T_ApiResponse<T> = {
+  success: boolean;
+  message: string;
+  data: T;
+};
