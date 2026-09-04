@@ -8,11 +8,13 @@ interface User {
 
 interface AuthState {
   user: User | null;
+  accessToken: string | null;
   isAuthenticated: boolean;
 }
 
 const initialState: AuthState = {
   user: null,
+  accessToken: null,
   isAuthenticated: false,
 };
 
