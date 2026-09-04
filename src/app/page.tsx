@@ -1,7 +1,7 @@
 import { siteInfo } from "@/config/site";
 
-const page = () => {
+const Home = () => {
   return <div>Welcome to {siteInfo.title}</div>;
 };
 
-export default page;
+export default Home;
