@@ -1,3 +1,8 @@
+export type TQueryParam = {
+  key: string;
+  value: string | undefined;
+};
+
 export type TError = {
   data: {
     message: string;
@@ -5,11 +10,6 @@ export type TError = {
     success: boolean;
   };
   status: number;
-};
-
-export type TQueryParam = {
-  key: string;
-  value: string | undefined;
 };
 
 export type TMeta = {
