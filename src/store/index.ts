@@ -5,7 +5,7 @@ import { persistReducer, persistStore } from "redux-persist";
 import storage from "redux-persist/lib/storage";
 
 import authReducer from "./slices/auth.slice";
-import { baseApi } from "./api/base-api";
+import { baseApi } from "./base-api";
 
 const rootReducer = combineReducers({
   auth: authReducer,
