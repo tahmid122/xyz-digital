@@ -23,18 +23,23 @@ const Home = () => {
       </p>
 
       <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
-        <Button size="lg" className="rounded-xl gap-2 font-medium">
-          <Link href="/services" className="flex items-center gap-2">
-            Explore Services
-            <ArrowRight className="size-4" />
-          </Link>
+        <Button
+          size="lg"
+          nativeButton={false}
+          render={<Link href="/services" />}
+          className="rounded-xl gap-2 font-medium"
+        >
+          Explore Services
+          <ArrowRight className="size-4" />
         </Button>
         <Button
           size="lg"
           variant="outline"
+          nativeButton={false}
+          render={<Link href="/contact" />}
           className="rounded-xl font-medium"
         >
-          <Link href="/contact">Contact Us</Link>
+          Contact Us
         </Button>
       </div>
     </div>

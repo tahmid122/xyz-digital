@@ -96,3 +96,40 @@ export const footerConfig: FooterConfig = {
     developer: "Xyz Digital",
   },
 };
+
+export interface TopBarConfig {
+  logo: {
+    src: string;
+    alt: string;
+    href: string;
+  };
+  contact: {
+    label: string;
+    phone: string;
+  };
+  socials: SocialLink[];
+}
+
+export const topBarConfig: TopBarConfig = {
+  logo: {
+    src: "/logo/logo.png",
+    alt: "Xyz Digital",
+    href: "/",
+  },
+  contact: {
+    label: "Call Us:",
+    phone: "01917462410",
+  },
+  socials: [
+    {
+      name: "Facebook",
+      href: "https://facebook.com",
+      icon: "facebook",
+    },
+    {
+      name: "YouTube",
+      href: "https://youtube.com",
+      icon: "youtube",
+    },
+  ],
+};

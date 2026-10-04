@@ -1,13 +1,11 @@
 import { Button } from "@/components/ui/button";
-import { type SocialLink } from "@/config/navigation";
+import { topBarConfig } from "@/config/navigation";
 
-interface FooterSocialsProps {
-  socials: SocialLink[];
-}
+export function TopBarSocials() {
+  const { socials } = topBarConfig;
 
-export function FooterSocials({ socials }: FooterSocialsProps) {
   return (
-    <div className="flex items-center justify-center gap-3">
+    <div className="flex items-center gap-2.5">
       {socials.map((social) => {
         if (social.icon === "facebook") {
           return (
@@ -19,15 +17,15 @@ export function FooterSocials({ socials }: FooterSocialsProps) {
                   href={social.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="Visit Facebook"
+                  aria-label="Visit our Facebook page"
                 />
               }
               size="icon"
               variant="ghost"
-              className="size-8 rounded-full bg-[#1877F2] text-white hover:bg-[#1877F2]/90 hover:text-white transition-transform hover:scale-110 shadow-sm p-0 cursor-pointer"
+              className="size-7 sm:size-8 rounded-full bg-[#1877F2] text-white hover:bg-[#1877F2]/90 hover:text-white transition-transform hover:scale-110 shadow-sm p-0 cursor-pointer"
             >
               <svg
-                className="size-4 fill-current"
+                className="size-3.5 sm:size-4 fill-current"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
               >
@@ -47,15 +45,15 @@ export function FooterSocials({ socials }: FooterSocialsProps) {
                   href={social.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="Visit YouTube"
+                  aria-label="Visit our YouTube channel"
                 />
               }
               size="icon"
               variant="ghost"
-              className="size-8 rounded-full bg-[#FF0000] text-white hover:bg-[#FF0000]/90 hover:text-white transition-transform hover:scale-110 shadow-sm p-0 cursor-pointer"
+              className="size-7 sm:size-8 rounded-full bg-[#FF0000] text-white hover:bg-[#FF0000]/90 hover:text-white transition-transform hover:scale-110 shadow-sm p-0 cursor-pointer"
             >
               <svg
-                className="size-4 fill-current"
+                className="size-3.5 sm:size-4 fill-current"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
               >
