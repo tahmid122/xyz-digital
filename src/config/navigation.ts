@@ -18,6 +18,19 @@ export interface SocialLink {
   icon: "facebook" | "youtube";
 }
 
+export interface TopBarConfig {
+  logo: {
+    src: string;
+    alt: string;
+    href: string;
+  };
+  contact: {
+    label: string;
+    phone: string;
+  };
+  socials: SocialLink[];
+}
+
 export interface FooterConfig {
   services: {
     title: string;
@@ -39,19 +52,45 @@ export interface FooterConfig {
   };
 }
 
+export const mainNavItems: NavItem[] = [
+  { title: "Graphics", href: "/services/graphics" },
+  { title: "Web & Software", href: "/services/web-software" },
+  { title: "Digital Marketing", href: "/services/digital-marketing" },
+  { title: "Virtual Assistant", href: "/services/virtual-assistant" },
+  { title: "Business & Legal", href: "/services/business-legal" },
+  { title: "Video & Photography", href: "/services/video-photography" },
+  { title: "Training Edu", href: "/services/training-edu" },
+  { title: "Other Service", href: "/services/other" },
+];
+
+export const topBarConfig: TopBarConfig = {
+  logo: {
+    src: "/logo/logo.png",
+    alt: "Xyz Digital",
+    href: "/",
+  },
+  contact: {
+    label: "Call Us:",
+    phone: "01917462410",
+  },
+  socials: [
+    {
+      name: "Facebook",
+      href: "https://facebook.com",
+      icon: "facebook",
+    },
+    {
+      name: "YouTube",
+      href: "https://youtube.com",
+      icon: "youtube",
+    },
+  ],
+};
+
 export const footerConfig: FooterConfig = {
   services: {
     title: "OUR SERVICES",
-    items: [
-      { title: "Graphics", href: "/services/graphics" },
-      { title: "Web & Software", href: "/services/web-software" },
-      { title: "Digital Marketing", href: "/services/digital-marketing" },
-      { title: "Virtual Assistant", href: "/services/virtual-assistant" },
-      { title: "Business & Legal", href: "/services/business-legal" },
-      { title: "Video & Photography", href: "/services/video-photography" },
-      { title: "Training Edu", href: "/services/training-edu" },
-      { title: "Other Service", href: "/services/other" },
-    ],
+    items: mainNavItems,
   },
   company: {
     title: "COMPANY",
@@ -95,41 +134,4 @@ export const footerConfig: FooterConfig = {
     year: 2026,
     developer: "Xyz Digital",
   },
-};
-
-export interface TopBarConfig {
-  logo: {
-    src: string;
-    alt: string;
-    href: string;
-  };
-  contact: {
-    label: string;
-    phone: string;
-  };
-  socials: SocialLink[];
-}
-
-export const topBarConfig: TopBarConfig = {
-  logo: {
-    src: "/logo/logo.png",
-    alt: "Xyz Digital",
-    href: "/",
-  },
-  contact: {
-    label: "Call Us:",
-    phone: "01917462410",
-  },
-  socials: [
-    {
-      name: "Facebook",
-      href: "https://facebook.com",
-      icon: "facebook",
-    },
-    {
-      name: "YouTube",
-      href: "https://youtube.com",
-      icon: "youtube",
-    },
-  ],
 };

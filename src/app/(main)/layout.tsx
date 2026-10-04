@@ -1,11 +1,13 @@
 import { ReactNode } from "react";
 import { TopBar } from "@/components/layouts/top-bar";
+import { Navbar } from "@/components/layouts/navbar";
 import { Footer } from "@/components/layouts/footer";
 
 const RootLayout = ({ children }: { children: ReactNode }) => {
   return (
     <div className="flex min-h-screen flex-col">
       <TopBar />
+      <Navbar />
       <main className="flex-1">{children}</main>
       <Footer />
     </div>
