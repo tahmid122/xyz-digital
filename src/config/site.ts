@@ -56,13 +56,13 @@ export interface SiteInfo {
 
 export const siteInfo: SiteInfo = {
   // Core
-  name: "Next.js",
-  title: "Next.js – The React Framework for the Web",
+  name: "Xyz Digital",
+  title: "Xyz Digital - Digital marketing services",
   description:
-    "Next.js is a React framework for building fast, scalable, and modern web applications.",
-  url: "https://nextjs.org",
+    "Xyz Digital is a digital marketing agency that provides a wide range of digital marketing services to businesses.",
+  url: "https://xyz-digital.com",
   locale: "en_US",
-  siteName: "Next.js",
+  siteName: "Xyz Digital",
 
   // Branding
   logo: "https://nextjs.org/icons/next.svg",
@@ -103,14 +103,14 @@ export const siteInfo: SiteInfo = {
 
   // Organization
   organization: {
-    name: "Vercel",
-    url: "https://vercel.com",
-    logo: "https://nextjs.org/icons/next.svg",
+    name: "Xyz Digital",
+    url: "https://xyz-digital.com",
+    logo: "/favicon.ico",
   },
 
   // Structured data
   socialLinks: [
-    "https://twitter.com/vercel",
-    "https://github.com/vercel/next.js",
+    "https://facebook.com/xyzdigital",
+    "https://youtube.com/@xyzdigital",
   ],
 };
