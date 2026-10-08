@@ -66,7 +66,7 @@ export const webServicesSectionData: ServiceCategorySectionData = {
       id: "ecommerce-solutions",
       title: "Full E-Commerce Store with Payment Gateway",
       image:
-        "https://images.unsplash.com/photo-1556742049-0a67c5574f73?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&q=80",
       packageCount: 2,
       startingPrice: 12000,
       currency: "Tk.",
@@ -91,6 +91,194 @@ export const webServicesSectionData: ServiceCategorySectionData = {
       startingPrice: 10000,
       currency: "Tk.",
       href: "/services/mobile-apps",
+    },
+  ],
+};
+
+export const digitalMarketingServicesSectionData: ServiceCategorySectionData = {
+  id: "digital-marketing-services",
+  title: "Explore Our Digital Marketing Services",
+  services: [
+    {
+      id: "meta-ads-campaign",
+      title: "Facebook & Instagram High-ROI Ad Campaign Management",
+      image:
+        "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?auto=format&fit=crop&w=800&q=80",
+      packageCount: 2,
+      startingPrice: 4000,
+      currency: "Tk.",
+      href: "/services/meta-ads",
+    },
+    {
+      id: "seo-ranking-growth",
+      title: "Advanced Search Engine Optimization (SEO) & Google Ranking",
+      image:
+        "https://images.unsplash.com/photo-1562577309-4932fdd64cd1?auto=format&fit=crop&w=800&q=80",
+      packageCount: 3,
+      startingPrice: 5000,
+      currency: "Tk.",
+      href: "/services/seo-services",
+    },
+    {
+      id: "social-media-content",
+      title: "Creative Social Media Post Design & Brand Management",
+      image:
+        "https://images.unsplash.com/photo-1611926653458-09294b3142bf?auto=format&fit=crop&w=800&q=80",
+      packageCount: 1,
+      startingPrice: 3500,
+      currency: "Tk.",
+      href: "/services/social-management",
+    },
+    {
+      id: "google-ads-ppc",
+      title: "Google Search & YouTube PPC Lead Generation Setup",
+      image:
+        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80",
+      packageCount: 1,
+      startingPrice: 4500,
+      currency: "Tk.",
+      href: "/services/google-ads",
+    },
+  ],
+};
+
+export const videoPhotographyServicesSectionData: ServiceCategorySectionData = {
+  id: "video-photography-services",
+  title: "Explore Our Video & Photography Services",
+  services: [
+    {
+      id: "corporate-video-editing",
+      title: "Corporate Video Editing, Color Grading & Sound Mixing",
+      image:
+        "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?auto=format&fit=crop&w=800&q=80",
+      packageCount: 2,
+      startingPrice: 3000,
+      currency: "Tk.",
+      href: "/services/video-editing",
+    },
+    {
+      id: "commercial-product-photo",
+      title: "E-Commerce Product Photography & Professional Retouching",
+      image:
+        "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=800&q=80",
+      packageCount: 1,
+      startingPrice: 2500,
+      currency: "Tk.",
+      href: "/services/product-photography",
+    },
+    {
+      id: "motion-graphics-youtube",
+      title: "Motion Graphics, Intro Animation & 4K Video Production",
+      image:
+        "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=800&q=80",
+      packageCount: 2,
+      startingPrice: 2000,
+      currency: "Tk.",
+      href: "/services/motion-graphics",
+    },
+    {
+      id: "reels-shorts-creation",
+      title: "Viral TikTok, Instagram Reels & YouTube Shorts Editing",
+      image:
+        "https://images.unsplash.com/photo-1611162618071-b39a2ec055fb?auto=format&fit=crop&w=800&q=80",
+      packageCount: 1,
+      startingPrice: 1500,
+      currency: "Tk.",
+      href: "/services/reels-editing",
+    },
+  ],
+};
+
+export const businessLegalServicesSectionData: ServiceCategorySectionData = {
+  id: "business-legal-services",
+  title: "Explore Our Business & Legal Services",
+  services: [
+    {
+      id: "trade-license-reg",
+      title: "Trade License & New Business Registration in Bangladesh",
+      image:
+        "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=800&q=80",
+      packageCount: 1,
+      startingPrice: 5000,
+      currency: "Tk.",
+      href: "/services/trade-license",
+    },
+    {
+      id: "legal-contracts-drafting",
+      title: "Commercial Contract Drafting & Partnership Agreements",
+      image:
+        "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80",
+      packageCount: 2,
+      startingPrice: 4000,
+      currency: "Tk.",
+      href: "/services/legal-contracts",
+    },
+    {
+      id: "tax-tin-bin-consultancy",
+      title: "TIN, BIN & Corporate Annual Tax Filing Consultancy",
+      image:
+        "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=800&q=80",
+      packageCount: 1,
+      startingPrice: 3000,
+      currency: "Tk.",
+      href: "/services/tax-filing",
+    },
+    {
+      id: "trademark-ip-reg",
+      title: "Brand Trademark & Intellectual Property Rights Filing",
+      image:
+        "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80",
+      packageCount: 1,
+      startingPrice: 6000,
+      currency: "Tk.",
+      href: "/services/trademark",
+    },
+  ],
+};
+
+export const virtualAssistantServicesSectionData: ServiceCategorySectionData = {
+  id: "virtual-assistant-services",
+  title: "Explore Our Virtual Assistant Services",
+  services: [
+    {
+      id: "dedicated-support-agent",
+      title: "24/7 Dedicated Live Chat & Customer Support Representative",
+      image:
+        "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80",
+      packageCount: 2,
+      startingPrice: 6000,
+      currency: "Tk.",
+      href: "/services/support-agent",
+    },
+    {
+      id: "data-entry-excel",
+      title: "Accurate Data Entry, Web Research & Excel Spreadsheet Tasks",
+      image:
+        "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?auto=format&fit=crop&w=800&q=80",
+      packageCount: 1,
+      startingPrice: 2500,
+      currency: "Tk.",
+      href: "/services/data-entry",
+    },
+    {
+      id: "store-inventory-management",
+      title: "Shopify & WooCommerce Product Listing & Inventory Management",
+      image:
+        "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80",
+      packageCount: 2,
+      startingPrice: 4500,
+      currency: "Tk.",
+      href: "/services/ecommerce-va",
+    },
+    {
+      id: "calendar-email-assistant",
+      title: "Executive Email Handling, Appointment & Schedule Organizer",
+      image:
+        "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=800&q=80",
+      packageCount: 1,
+      startingPrice: 3500,
+      currency: "Tk.",
+      href: "/services/executive-va",
     },
   ],
 };
