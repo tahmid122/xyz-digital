@@ -10,6 +10,7 @@ import {
   businessLegalServicesSectionData,
   virtualAssistantServicesSectionData,
 } from "@/features/home/components/service-category-showcase";
+import { ItSolutionsBanner } from "@/features/home/components/it-solutions-banner";
 
 const Home = () => {
   return (
@@ -56,6 +57,9 @@ const Home = () => {
         viewAllHref="/services/virtual-assistant"
         className="bg-slate-50/50"
       />
+
+      {/* 7. IT Solutions Banner */}
+      <ItSolutionsBanner />
     </div>
   );
 };
