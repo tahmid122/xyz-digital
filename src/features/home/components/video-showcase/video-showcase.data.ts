@@ -26,7 +26,7 @@ export const videoShowcaseData: VideoShowcaseData = {
     channelTitle: "Charming House studio Uttara Dhaka",
     channelSubtitle: "Charming House Corporate Video Production Company",
     phone: "01917-462410",
-    youtubeUrl: "https://www.youtube.com",
+    youtubeUrl: "#",
     embedUrl: "https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ?autoplay=1",
     thumbnail:
       "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=80",

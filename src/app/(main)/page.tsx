@@ -22,39 +22,39 @@ const Home = () => {
       {/* 1. Graphics Services */}
       <ServiceCategorySection
         data={graphicsServicesSectionData}
-        viewAllHref="/services/graphics"
+        viewAllHref="#"
       />
 
       {/* 2. Web & Software Services */}
       <ServiceCategorySection
         data={webServicesSectionData}
-        viewAllHref="/services/web-software"
+        viewAllHref="#"
         className="bg-slate-50/50"
       />
 
       {/* 3. Digital Marketing Services */}
       <ServiceCategorySection
         data={digitalMarketingServicesSectionData}
-        viewAllHref="/services/digital-marketing"
+        viewAllHref="#"
       />
 
       {/* 4. Video & Photography Services */}
       <ServiceCategorySection
         data={videoPhotographyServicesSectionData}
-        viewAllHref="/services/video-photography"
+        viewAllHref="#"
         className="bg-slate-50/50"
       />
 
       {/* 5. Business & Legal Services */}
       <ServiceCategorySection
         data={businessLegalServicesSectionData}
-        viewAllHref="/services/business-legal"
+        viewAllHref="#"
       />
 
       {/* 6. Virtual Assistant Services */}
       <ServiceCategorySection
         data={virtualAssistantServicesSectionData}
-        viewAllHref="/services/virtual-assistant"
+        viewAllHref="#"
         className="bg-slate-50/50"
       />
 

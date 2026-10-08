@@ -12,7 +12,7 @@ export const graphicsServicesSectionData: ServiceCategorySectionData = {
       packageCount: 2,
       startingPrice: 3000,
       currency: "Tk.",
-      href: "/services/boosting-service",
+      href: "#",
     },
     {
       id: "tshirt-merchandise-design",
@@ -22,7 +22,7 @@ export const graphicsServicesSectionData: ServiceCategorySectionData = {
       packageCount: 1,
       startingPrice: 2000,
       currency: "Tk.",
-      href: "/services/tshirt-design",
+      href: "#",
     },
     {
       id: "company-profile-design",
@@ -33,7 +33,7 @@ export const graphicsServicesSectionData: ServiceCategorySectionData = {
       packageCount: 1,
       startingPrice: 1500,
       currency: "Tk.",
-      href: "/services/company-profile",
+      href: "#",
     },
     {
       id: "logo-design-service",
@@ -43,7 +43,7 @@ export const graphicsServicesSectionData: ServiceCategorySectionData = {
       packageCount: 1,
       startingPrice: 1500,
       currency: "Tk.",
-      href: "/services/logo-design",
+      href: "#",
     },
   ],
 };
@@ -60,7 +60,7 @@ export const webServicesSectionData: ServiceCategorySectionData = {
       packageCount: 2,
       startingPrice: 15000,
       currency: "Tk.",
-      href: "/services/web-development",
+      href: "#",
     },
     {
       id: "ecommerce-solutions",
@@ -70,7 +70,7 @@ export const webServicesSectionData: ServiceCategorySectionData = {
       packageCount: 2,
       startingPrice: 12000,
       currency: "Tk.",
-      href: "/services/ecommerce",
+      href: "#",
     },
     {
       id: "corporate-portal",
@@ -80,7 +80,7 @@ export const webServicesSectionData: ServiceCategorySectionData = {
       packageCount: 1,
       startingPrice: 8000,
       currency: "Tk.",
-      href: "/services/corporate-portal",
+      href: "#",
     },
     {
       id: "mobile-app-frontend",
@@ -90,7 +90,7 @@ export const webServicesSectionData: ServiceCategorySectionData = {
       packageCount: 1,
       startingPrice: 10000,
       currency: "Tk.",
-      href: "/services/mobile-apps",
+      href: "#",
     },
   ],
 };
@@ -107,7 +107,7 @@ export const digitalMarketingServicesSectionData: ServiceCategorySectionData = {
       packageCount: 2,
       startingPrice: 4000,
       currency: "Tk.",
-      href: "/services/meta-ads",
+      href: "#",
     },
     {
       id: "seo-ranking-growth",
@@ -117,7 +117,7 @@ export const digitalMarketingServicesSectionData: ServiceCategorySectionData = {
       packageCount: 3,
       startingPrice: 5000,
       currency: "Tk.",
-      href: "/services/seo-services",
+      href: "#",
     },
     {
       id: "social-media-content",
@@ -127,7 +127,7 @@ export const digitalMarketingServicesSectionData: ServiceCategorySectionData = {
       packageCount: 1,
       startingPrice: 3500,
       currency: "Tk.",
-      href: "/services/social-management",
+      href: "#",
     },
     {
       id: "google-ads-ppc",
@@ -137,7 +137,7 @@ export const digitalMarketingServicesSectionData: ServiceCategorySectionData = {
       packageCount: 1,
       startingPrice: 4500,
       currency: "Tk.",
-      href: "/services/google-ads",
+      href: "#",
     },
   ],
 };
@@ -154,7 +154,7 @@ export const videoPhotographyServicesSectionData: ServiceCategorySectionData = {
       packageCount: 2,
       startingPrice: 3000,
       currency: "Tk.",
-      href: "/services/video-editing",
+      href: "#",
     },
     {
       id: "commercial-product-photo",
@@ -164,7 +164,7 @@ export const videoPhotographyServicesSectionData: ServiceCategorySectionData = {
       packageCount: 1,
       startingPrice: 2500,
       currency: "Tk.",
-      href: "/services/product-photography",
+      href: "#",
     },
     {
       id: "motion-graphics-youtube",
@@ -174,7 +174,7 @@ export const videoPhotographyServicesSectionData: ServiceCategorySectionData = {
       packageCount: 2,
       startingPrice: 2000,
       currency: "Tk.",
-      href: "/services/motion-graphics",
+      href: "#",
     },
     {
       id: "reels-shorts-creation",
@@ -184,7 +184,7 @@ export const videoPhotographyServicesSectionData: ServiceCategorySectionData = {
       packageCount: 1,
       startingPrice: 1500,
       currency: "Tk.",
-      href: "/services/reels-editing",
+      href: "#",
     },
   ],
 };
@@ -201,7 +201,7 @@ export const businessLegalServicesSectionData: ServiceCategorySectionData = {
       packageCount: 1,
       startingPrice: 5000,
       currency: "Tk.",
-      href: "/services/trade-license",
+      href: "#",
     },
     {
       id: "legal-contracts-drafting",
@@ -211,7 +211,7 @@ export const businessLegalServicesSectionData: ServiceCategorySectionData = {
       packageCount: 2,
       startingPrice: 4000,
       currency: "Tk.",
-      href: "/services/legal-contracts",
+      href: "#",
     },
     {
       id: "tax-tin-bin-consultancy",
@@ -221,7 +221,7 @@ export const businessLegalServicesSectionData: ServiceCategorySectionData = {
       packageCount: 1,
       startingPrice: 3000,
       currency: "Tk.",
-      href: "/services/tax-filing",
+      href: "#",
     },
     {
       id: "trademark-ip-reg",
@@ -231,7 +231,7 @@ export const businessLegalServicesSectionData: ServiceCategorySectionData = {
       packageCount: 1,
       startingPrice: 6000,
       currency: "Tk.",
-      href: "/services/trademark",
+      href: "#",
     },
   ],
 };
@@ -248,7 +248,7 @@ export const virtualAssistantServicesSectionData: ServiceCategorySectionData = {
       packageCount: 2,
       startingPrice: 6000,
       currency: "Tk.",
-      href: "/services/support-agent",
+      href: "#",
     },
     {
       id: "data-entry-excel",
@@ -258,7 +258,7 @@ export const virtualAssistantServicesSectionData: ServiceCategorySectionData = {
       packageCount: 1,
       startingPrice: 2500,
       currency: "Tk.",
-      href: "/services/data-entry",
+      href: "#",
     },
     {
       id: "store-inventory-management",
@@ -268,7 +268,7 @@ export const virtualAssistantServicesSectionData: ServiceCategorySectionData = {
       packageCount: 2,
       startingPrice: 4500,
       currency: "Tk.",
-      href: "/services/ecommerce-va",
+      href: "#",
     },
     {
       id: "calendar-email-assistant",
@@ -278,7 +278,7 @@ export const virtualAssistantServicesSectionData: ServiceCategorySectionData = {
       packageCount: 1,
       startingPrice: 3500,
       currency: "Tk.",
-      href: "/services/executive-va",
+      href: "#",
     },
   ],
 };

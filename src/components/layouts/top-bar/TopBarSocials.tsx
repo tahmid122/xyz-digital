@@ -7,6 +7,8 @@ export function TopBarSocials() {
   return (
     <div className="flex items-center gap-2.5">
       {socials.map((social) => {
+        const isExternal = social.href.startsWith("http");
+
         if (social.icon === "facebook") {
           return (
             <Button
@@ -15,8 +17,9 @@ export function TopBarSocials() {
               render={
                 <a
                   href={social.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  {...(isExternal
+                    ? { target: "_blank", rel: "noopener noreferrer" }
+                    : {})}
                   aria-label="Visit our Facebook page"
                 />
               }
@@ -43,8 +46,9 @@ export function TopBarSocials() {
               render={
                 <a
                   href={social.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  {...(isExternal
+                    ? { target: "_blank", rel: "noopener noreferrer" }
+                    : {})}
                   aria-label="Visit our YouTube channel"
                 />
               }
