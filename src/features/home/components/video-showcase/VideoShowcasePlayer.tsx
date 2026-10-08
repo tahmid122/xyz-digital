@@ -72,8 +72,9 @@ export function VideoShowcasePlayer() {
           {/* Watch on YouTube Button */}
           <a
             href={video.youtubeUrl}
-            target="_blank"
-            rel="noopener noreferrer"
+            {...(video.youtubeUrl.startsWith("http")
+              ? { target: "_blank", rel: "noopener noreferrer" }
+              : {})}
             className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg bg-black/60 hover:bg-black/80 text-white text-xs font-medium backdrop-blur-xs transition-colors border border-white/10"
           >
             <span>Watch on YouTube</span>

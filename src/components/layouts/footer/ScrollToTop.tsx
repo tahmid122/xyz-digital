@@ -1,27 +1,51 @@
 "use client";
 
-import { CornerRightUp } from "lucide-react";
+import { useEffect, useState } from "react";
+import { ChevronUp } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
 
 export function ScrollToTop() {
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 250) {
+        setIsVisible(true);
+      } else {
+        setIsVisible(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    handleScroll();
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   const handleScrollToTop = () => {
-    if (typeof window !== "undefined") {
-      window.scrollTo({
-        top: 0,
-        behavior: "smooth",
-      });
-    }
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
   };
 
   return (
     <Button
-      variant="outline"
+      variant="ghost"
       size="icon"
       onClick={handleScrollToTop}
-      aria-label="Scroll to top"
-      className="size-9 rounded-sm border-2 border-red-500 bg-transparent text-white hover:bg-red-500/20 hover:border-red-400 hover:text-white transition-all shadow-sm"
+      aria-label="Back to top"
+      className={cn(
+        "fixed bottom-6 right-6 z-50 size-10 sm:size-11 rounded-md bg-[#07172d] text-white border border-slate-700/60 shadow-xl hover:bg-emerald-600 hover:text-white hover:border-emerald-500 transition-all duration-300 cursor-pointer",
+        isVisible
+          ? "opacity-100 translate-y-0 pointer-events-auto"
+          : "opacity-0 translate-y-4 pointer-events-none"
+      )}
     >
-      <CornerRightUp className="size-4 text-white stroke-[2.5]" />
+      <ChevronUp className="size-5 stroke-[2.5]" />
     </Button>
   );
 }

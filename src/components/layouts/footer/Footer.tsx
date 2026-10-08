@@ -29,20 +29,19 @@ export function Footer() {
           <FooterContact office={footerConfig.office} />
         </div>
 
-        {/* Bottom Bar: Socials, Copyright, and Scroll-to-Top */}
-        <div className="relative pt-6 border-t border-white/5 flex flex-col items-center justify-center gap-4">
+        {/* Bottom Bar: Socials and Copyright */}
+        <div className="pt-6 border-t border-white/5 flex flex-col items-center justify-center gap-4">
           <FooterSocials socials={footerConfig.socials} />
 
           <FooterCopyright
             year={footerConfig.copyright.year}
             developer={footerConfig.copyright.developer}
           />
-
-          <div className="self-end sm:absolute sm:right-0 sm:bottom-0">
-            <ScrollToTop />
-          </div>
         </div>
       </div>
+
+      {/* Viewport-fixed Back to Top floating button */}
+      <ScrollToTop />
     </footer>
   );
 }

@@ -1,20 +1,15 @@
 "use client";
 
 import { useState } from "react";
-import { useRouter } from "next/navigation";
 import { Search } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 
 export function HeroSearch() {
   const [query, setQuery] = useState("");
-  const router = useRouter();
 
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
-    if (query.trim()) {
-      router.push(`/services?search=${encodeURIComponent(query.trim())}`);
-    }
   };
 
   return (

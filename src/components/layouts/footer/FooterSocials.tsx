@@ -9,6 +9,8 @@ export function FooterSocials({ socials }: FooterSocialsProps) {
   return (
     <div className="flex items-center justify-center gap-3">
       {socials.map((social) => {
+        const isExternal = social.href.startsWith("http");
+
         if (social.icon === "facebook") {
           return (
             <Button
@@ -17,8 +19,9 @@ export function FooterSocials({ socials }: FooterSocialsProps) {
               render={
                 <a
                   href={social.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  {...(isExternal
+                    ? { target: "_blank", rel: "noopener noreferrer" }
+                    : {})}
                   aria-label="Visit Facebook"
                 />
               }
@@ -45,8 +48,9 @@ export function FooterSocials({ socials }: FooterSocialsProps) {
               render={
                 <a
                   href={social.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  {...(isExternal
+                    ? { target: "_blank", rel: "noopener noreferrer" }
+                    : {})}
                   aria-label="Visit YouTube"
                 />
               }

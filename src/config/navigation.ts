@@ -53,21 +53,21 @@ export interface FooterConfig {
 }
 
 export const mainNavItems: NavItem[] = [
-  { title: "Graphics", href: "/services/graphics" },
-  { title: "Web & Software", href: "/services/web-software" },
-  { title: "Digital Marketing", href: "/services/digital-marketing" },
-  { title: "Virtual Assistant", href: "/services/virtual-assistant" },
-  { title: "Business & Legal", href: "/services/business-legal" },
-  { title: "Video & Photography", href: "/services/video-photography" },
-  { title: "Training Edu", href: "/services/training-edu" },
-  { title: "Other Service", href: "/services/other" },
+  { title: "Graphics", href: "#" },
+  { title: "Web & Software", href: "#" },
+  { title: "Digital Marketing", href: "#" },
+  { title: "Virtual Assistant", href: "#" },
+  { title: "Business & Legal", href: "#" },
+  { title: "Video & Photography", href: "#" },
+  { title: "Training Edu", href: "#" },
+  { title: "Other Service", href: "#" },
 ];
 
 export const topBarConfig: TopBarConfig = {
   logo: {
     src: "/logo/logo.png",
     alt: "Xyz Digital",
-    href: "/",
+    href: "#",
   },
   contact: {
     label: "Call Us:",
@@ -76,12 +76,12 @@ export const topBarConfig: TopBarConfig = {
   socials: [
     {
       name: "Facebook",
-      href: "https://facebook.com",
+      href: "#",
       icon: "facebook",
     },
     {
       name: "YouTube",
-      href: "https://youtube.com",
+      href: "#",
       icon: "youtube",
     },
   ],
@@ -95,19 +95,19 @@ export const footerConfig: FooterConfig = {
   company: {
     title: "COMPANY",
     items: [
-      { title: "About", href: "/about" },
-      { title: "Company Blog", href: "/blog" },
-      { title: "FAQ", href: "/faq" },
-      { title: "Contact us", href: "/contact" },
+      { title: "About", href: "#" },
+      { title: "Company Blog", href: "#" },
+      { title: "FAQ", href: "#" },
+      { title: "Contact us", href: "#" },
     ],
   },
   support: {
     title: "SUPPORT",
     items: [
-      { title: "Contact Us", href: "/contact" },
-      { title: "Submit a Ticket", href: "/support/ticket" },
-      { title: "Services", href: "/services" },
-      { title: "Team", href: "/team" },
+      { title: "Contact Us", href: "#" },
+      { title: "Submit a Ticket", href: "#" },
+      { title: "Services", href: "#" },
+      { title: "Team", href: "#" },
     ],
   },
   office: {
@@ -121,12 +121,12 @@ export const footerConfig: FooterConfig = {
   socials: [
     {
       name: "Facebook",
-      href: "https://facebook.com",
+      href: "#",
       icon: "facebook",
     },
     {
       name: "YouTube",
-      href: "https://youtube.com",
+      href: "#",
       icon: "youtube",
     },
   ],
